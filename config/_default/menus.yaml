@@ -19,3 +19,6 @@ main:
   - name: CV
     url: uploads/cv.pdf
     weight: 50
+  - name: 中文
+    url: zh/
+    weight: 60
