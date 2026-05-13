@@ -1,0 +1,34 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language
+en:
+  locale: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
+  title: Guanxu Chen
+  params:
+    description: Ph.D. student at Shanghai Jiao Tong University and Shanghai AI Laboratory.
+
+# Uncomment the lines below to configure your website in a second language.
+zh:
+  locale: zh-Hans
+  contentDir: content/zh
+  title: 陈冠旭
+  params:
+    description: 上海交通大学博士生, 上海人工智能实验室联合培养.
+  menu:
+    main:
+      - name: 简介
+        url: /
+        weight: 10
+      - name: 论文
+        url: /#papers
+        weight: 20
+      - name: 项目
+        url: projects/
+        weight: 30
+      - name: 动态
+        url: /#news
+        weight: 40
