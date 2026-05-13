@@ -1,0 +1,9 @@
+title: Guanxu Chen
+description: Publications and technical reports.
+url: "https://biuboomc.github.io"
+baseurl: ""
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
